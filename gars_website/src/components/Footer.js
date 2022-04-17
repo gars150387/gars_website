@@ -1,13 +1,17 @@
 import React from "react"
+import { Navbar, Container } from "react-bootstrap"
 
 export const Footer = () => {
     return (
-        <div className="footer">
-            <p className="text-center" id="text1">
-                Copyright by Gustavo A. Rodriguez S.
-            </p>
-            <i className="fab fa-react color-white"></i>
-          
-        </div>
+        <Navbar variant="" bg="dark" fixed="bottom">
+            <Container>
+                <Navbar.Brand></Navbar.Brand>
+                <Navbar.Collapse className="justify-content-center">
+                    <Navbar.Text>
+                        Copyright by Gustavo A. Rodriguez S.
+                    </Navbar.Text>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }
