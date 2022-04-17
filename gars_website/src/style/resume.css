@@ -1,0 +1,16 @@
+.rpv-core__canvas-layer{
+    color: transparent;
+    height: 5px;
+    width: 5px;
+}
+.rpv-core__text-layer{
+    color: transparent;
+    height: 5px;
+    width: 5px;
+}
+
+.rpv-core__annotation-layer{
+    color: transparent;
+    height: 5px;
+    width: 5px;
+}
