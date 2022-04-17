@@ -1,5 +1,5 @@
 import React from "react"
-import { Navbar, Container } from "react-bootstrap"
+import { Navbar, Container, Row } from "react-bootstrap"
 
 export const Footer = () => {
     return (
@@ -10,6 +10,8 @@ export const Footer = () => {
                     <Navbar.Text>
                         Copyright by Gustavo A. Rodriguez S.
                     </Navbar.Text>
+                    <Row> </Row>
+                    <Row> </Row>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
